@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiet vs. Noisy Places - Speaking Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+
+    <div class="max-w-4xl mx-auto p-6 lg:p-12">
+        <!-- Кнопка назад -->
+        <a href="../../index.html" class="inline-flex items-center text-emerald-600 font-semibold hover:bg-emerald-100 px-4 py-2 rounded-full transition-all mb-10">
+            <i class="fas fa-arrow-left mr-2"></i> Back to Bank
+        </a>
+
+        <header class="mb-10">
+            <div class="text-emerald-500 font-bold text-sm uppercase tracking-widest mb-2">Part 1</div>
+            <h1 class="text-5xl font-black text-gray-900 tracking-tight">Quiet & Noisy Places 🤫🔊</h1>
+        </header>
+
+        <!-- Переключатель уровней -->
+        <div class="flex bg-white rounded-2xl shadow-sm p-1.5 max-w-xs mb-10 border border-gray-200">
+            <button onclick="showLevel('B2')" id="btn-B2" class="flex-1 py-3 rounded-xl font-bold transition-all">Level B2</button>
+            <button onclick="showLevel('C2')" id="btn-C2" class="flex-1 py-3 rounded-xl font-bold transition-all text-gray-400">Level C2</button>
+        </div>
+
+        <!-- КОНТЕНТ B2 (Upper Intermediate) -->
+        <div id="content-B2" class="space-y-6">
+            <div class="bg-emerald-50 border-l-4 border-emerald-500 p-5 rounded-r-2xl mb-8 text-emerald-800 text-sm italic">
+                <strong>Focus:</strong> Explaining preferences clearly, using comparative language, and connecting ideas with simple linking words (however, usually, because).
+            </div>
+
+            <div class="grid gap-4">
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-emerald-700 font-bold mb-3 text-lg">1. Do you like quiet or noisy places?</h4>
+                    <p class="text-gray-700 leading-relaxed">"I definitely prefer quiet places. I find noisy environments a bit <b>stressful</b> because it is hard to concentrate or have a conversation. I enjoy places with a calm <b>atmosphere</b>, like a library or a peaceful coffee shop, where I can hear myself think."</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-emerald-700 font-bold mb-3 text-lg">2. Would you like to go to quiet or noisy places on weekends when you are free?</h4>
+                    <p class="text-gray-700 leading-relaxed">"On weekends, I usually choose quiet places. Since I work in a busy office during the week, I want to <b>chill out</b> and relax on Saturday and Sunday. I often go to a park or just stay at home to read. <b>However</b>, if it is a friend's birthday, I don’t mind going to a noisy restaurant or club to celebrate."</p>
+                </div>
+            </div>
+
+            <div class="bg-gray-900 text-white p-8 rounded-3xl mt-12 shadow-xl">
+                <h3 class="text-xl font-bold mb-6 text-emerald-400 flex items-center">
+                    <i class="fas fa-book-open mr-3"></i> Key B2 Vocabulary
+                </h3>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <li class="border-b border-gray-700 pb-2"><strong class="text-emerald-400">Stressful:</strong> Makes you feel worried/tense.</li>
+                    <li class="border-b border-gray-700 pb-2"><strong class="text-emerald-400">Atmosphere:</strong> The feeling of a place.</li>
+                    <li class="border-b border-gray-700 pb-2"><strong class="text-emerald-400">Chill out:</strong> (Phrasal verb) To relax.</li>
+                    <li class="border-b border-gray-700 pb-2"><strong class="text-emerald-400">However:</strong> Linking word used for contrast.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- КОНТЕНТ C2 (Proficiency) -->
+        <div id="content-C2" class="hidden space-y-6">
+            <div class="bg-indigo-50 border-l-4 border-indigo-500 p-5 rounded-r-2xl mb-8 text-indigo-800 text-sm italic">
+                <strong>Focus:</strong> Expressing nuance (it depends), using idioms, and high-level adjectives for sound and feelings.
+            </div>
+
+            <div class="grid gap-4">
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-indigo-700 font-bold mb-3 text-lg">1. Do you like quiet or noisy places?</h4>
+                    <p class="text-gray-700 italic leading-relaxed text-lg">"It is entirely <b>context-dependent</b>. If I need to focus on work, I crave <b>solitude</b> and silence. However, I can also appreciate the <b>hustle and bustle</b> of a busy market or a city center because it feels energetic and vibrant. Generally speaking, though, I value <b>serenity</b> over chaos."</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-indigo-700 font-bold mb-3 text-lg">2. Would you like to go to quiet or noisy places on weekends when you are free?</h4>
+                    <p class="text-gray-700 italic leading-relaxed text-lg">"Given that my weekdays are often hectic and filled with the <b>cacophony</b> of the city, I view weekends as a time to <b>recharge my batteries</b>. Therefore, I tend to <b>shun</b> rowdy, crowded venues in favor of <b>secluded</b> spots."</p>
+                </div>
+            </div>
+
+            <div class="bg-indigo-950 text-white p-8 rounded-3xl mt-12 shadow-xl">
+                <h3 class="text-xl font-bold mb-6 text-indigo-300 flex items-center">
+                    <i class="fas fa-graduation-cap mr-3"></i> Key C2 Vocabulary
+                </h3>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Context-dependent:</strong> Changes based on the situation.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Solitude:</strong> Being alone (positively).</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Hustle and bustle:</strong> (Idiom) Busy activity.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Serenity:</strong> Absolute peacefulness.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Cacophony:</strong> A loud, unpleasant mixture of sounds.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Recharge my batteries:</strong> (Idiom) To regain energy.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Shun:</strong> To avoid something intentionally.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Secluded:</strong> Private and hidden away.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- TEACHER'S TIP SECTION -->
+        <section class="mt-16 bg-blue-50 border border-blue-200 p-8 rounded-3xl shadow-sm">
+            <h3 class="text-xl font-bold mb-6 text-blue-800 flex items-center">
+                <i class="fas fa-chalkboard-teacher mr-3"></i> Teacher's Tip for this Topic
+            </h3>
+            <div class="space-y-4 text-blue-900 leading-relaxed">
+                <p>A great way to show high-level English is to use the <strong>"It depends" strategy</strong>. Instead of choosing one side, explain that your preference changes:</p>
+                <ul class="list-disc ml-6 space-y-2 font-medium">
+                    <li>"It depends on my mood..."</li>
+                    <li>"It depends on what I am doing..."</li>
+                    <li>"It depends on who I am with..."</li>
+                </ul>
+                <p class="text-sm bg-white p-4 rounded-xl border border-blue-100 mt-4">
+                    This allows you to show off vocabulary for both sides (e.g., "I like peace for reading, but energy for partying").
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>

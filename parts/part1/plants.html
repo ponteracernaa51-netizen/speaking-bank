@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants - Speaking Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+
+    <div class="max-w-4xl mx-auto p-6 lg:p-12">
+        <!-- Кнопка назад -->
+        <a href="../../index.html" class="inline-flex items-center text-emerald-600 font-semibold hover:bg-emerald-100 px-4 py-2 rounded-full transition-all mb-10">
+            <i class="fas fa-arrow-left mr-2"></i> Back to Bank
+        </a>
+
+        <header class="mb-10">
+            <div class="text-emerald-500 font-bold text-sm uppercase tracking-widest mb-2">Part 1</div>
+            <h1 class="text-5xl font-black text-gray-900 tracking-tight">Plants 🌱</h1>
+        </header>
+
+        <!-- Переключатель уровней -->
+        <div class="flex bg-white rounded-2xl shadow-sm p-1.5 max-w-xs mb-10 border border-gray-200">
+            <button onclick="showLevel('B2')" id="btn-B2" class="flex-1 py-3 rounded-xl font-bold transition-all">Level B2</button>
+            <button onclick="showLevel('C2')" id="btn-C2" class="flex-1 py-3 rounded-xl font-bold transition-all text-gray-400">Level C2</button>
+        </div>
+
+        <!-- КОНТЕНТ B2 (Upper Intermediate) -->
+        <div id="content-B2" class="space-y-6">
+            <div class="bg-emerald-50 border-l-4 border-emerald-500 p-5 rounded-r-2xl mb-8">
+                <p class="text-emerald-800 text-sm italic">
+                    <strong>Focus:</strong> Clear communication, correct grammar, good topic vocabulary, and giving reasons for your answers.
+                </p>
+            </div>
+
+            <div class="grid gap-4">
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-emerald-700 font-bold mb-3 text-lg">1. Do you keep plants?</h4>
+                    <p class="text-gray-700 leading-relaxed">"Yes, I do. I have a few potted plants in my living room and on my balcony. I think they make the <b>atmosphere</b> in the house much more relaxing and welcoming, although I sometimes forget to water them on time!"</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-emerald-700 font-bold mb-3 text-lg">2. Have you ever had a plant?</h4>
+                    <p class="text-gray-700 leading-relaxed">"Yes, I have. When I moved into my first apartment, I bought a cactus because I heard they were very <b>low maintenance</b>. It was the only plant I could keep alive because I didn't have much free time to take care of it."</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-emerald-700 font-bold mb-3 text-lg">3. Do you know anything about growing a plant?</h4>
+                    <p class="text-gray-700 leading-relaxed">"I know <b>the basics</b>. For example, I understand that plants need sunlight, good soil, and the right amount of water. If I buy a new plant, I usually search on Google to find out exactly how to look after it properly."</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-emerald-700 font-bold mb-3 text-lg">4. What plants did you grow when you were younger?</h4>
+                    <p class="text-gray-700 leading-relaxed">"When I was a child, my parents had a small garden. We used to grow vegetables like tomatoes and peppers. I remember helping my mother water them in the summer. It was fun to eat food that we had grown ourselves."</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-emerald-700 font-bold mb-3 text-lg">5. Do people in your country send plants as gifts?</h4>
+                    <p class="text-gray-700 leading-relaxed">"Yes, it is quite common, especially for <b>housewarming parties</b>. People often prefer giving a potted plant instead of a bouquet of flowers because a plant lasts much longer. It is seen as a nice decoration for a new home."</p>
+                </div>
+            </div>
+
+            <div class="bg-gray-900 text-white p-8 rounded-3xl mt-12 shadow-xl">
+                <h3 class="text-xl font-bold mb-6 text-emerald-400 flex items-center">
+                    <i class="fas fa-book-open mr-3"></i> Key B2 Vocabulary
+                </h3>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <li class="border-b border-gray-700 pb-2"><strong class="text-emerald-400">Atmosphere:</strong> The mood of a place.</li>
+                    <li class="border-b border-gray-700 pb-2"><strong class="text-emerald-400">Low maintenance:</strong> Easy to care for.</li>
+                    <li class="border-b border-gray-700 pb-2"><strong class="text-emerald-400">The basics:</strong> Essential knowledge.</li>
+                    <li class="border-b border-gray-700 pb-2"><strong class="text-emerald-400">Housewarming party:</strong> A party when moving into a new house.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- КОНТЕНТ C2 (Proficiency) -->
+        <div id="content-C2" class="hidden space-y-6">
+            <div class="bg-indigo-50 border-l-4 border-indigo-500 p-5 rounded-r-2xl mb-8">
+                <p class="text-indigo-800 text-sm italic">
+                    <strong>Focus:</strong> Nuance, idiomatic language, sophisticated collocations, and natural flow.
+                </p>
+            </div>
+
+            <div class="grid gap-4">
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-indigo-700 font-bold mb-3 text-lg">1. Do you keep plants?</h4>
+                    <p class="text-gray-700 italic leading-relaxed text-lg">"Absolutely. My apartment is practically a greenhouse. I find that having greenery around not only enhances the <b>aesthetic appeal</b> of the space but also does wonders for my mental well-being; I find tending to them quite <b>therapeutic</b>."</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-indigo-700 font-bold mb-3 text-lg">2. Have you ever had a plant?</h4>
+                    <p class="text-gray-700 italic leading-relaxed text-lg">"Oh, certainly. My history with botany is quite extensive. I’ve nurtured everything from resilient succulents to temperamental ferns. I must admit, I didn't always have a <b>green thumb</b>, but over the years I’ve become much better at keeping them thriving."</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-indigo-700 font-bold mb-3 text-lg">3. Do you know anything about growing a plant?</h4>
+                    <p class="text-gray-700 italic leading-relaxed text-lg">"I possess a fair amount of <b>horticultural</b> knowledge. Beyond the obvious need for hydration, I understand the nuances of soil drainage, pruning, and finding the optimal light exposure for different species. It’s a delicate balance to get right."</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-indigo-700 font-bold mb-3 text-lg">4. What plants did you grow when you were younger?</h4>
+                    <p class="text-gray-700 italic leading-relaxed text-lg">"We had a dedicated patch in the backyard where we <b>cultivated</b> organic vegetables. I recall vividly tending to runner beans and sunflowers. It was a formative experience that taught me a lot about patience and the cycle of nature."</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <h4 class="text-indigo-700 font-bold mb-3 text-lg">5. Do people in your country send plants as gifts?</h4>
+                    <p class="text-gray-700 italic leading-relaxed text-lg">"It is indeed a <b>customary gesture</b>, particularly for occasions that mark a new beginning, like opening an office or moving house. A potted plant is often preferred over cut flowers because it symbolizes <b>longevity</b> and growth."</p>
+                </div>
+            </div>
+
+            <div class="bg-indigo-950 text-white p-8 rounded-3xl mt-12 shadow-xl">
+                <h3 class="text-xl font-bold mb-6 text-indigo-300 flex items-center">
+                    <i class="fas fa-graduation-cap mr-3"></i> Key C2 Vocabulary
+                </h3>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Aesthetic appeal:</strong> How beautiful something looks.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Therapeutic:</strong> Good for mental health/relaxing.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Green thumb:</strong> Natural talent for gardening.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Horticultural:</strong> Related to garden cultivation.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Cultivated:</strong> Grown / farmed.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Customary gesture:</strong> A traditional action.</li>
+                    <li class="border-b border-indigo-900 pb-2"><strong class="text-indigo-300">Longevity:</strong> Long life.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- QUICK TIPS SECTION -->
+        <section class="mt-16 bg-amber-50 border border-amber-200 p-8 rounded-3xl">
+            <h3 class="text-xl font-bold mb-6 text-amber-800 flex items-center">
+                <i class="fas fa-lightbulb mr-3"></i> Quick Tips for Part 1
+            </h3>
+            <div class="space-y-4 text-amber-900 leading-relaxed">
+                <p>• <strong>Don't give one-word answers:</strong> Even if the question is "Do you...", always expand with "because..." or "for example..."</p>
+                <p>• <strong>Be honest:</strong> If you hate plants, say so! You are judged on your English, not your love of gardening.</p>
+                <div class="bg-white p-5 rounded-2xl border border-amber-200 mt-4 shadow-sm">
+                    <p class="text-sm"><strong>Negative Answer Example (Level C2):</strong><br>
+                    <span class="italic">"To be honest, I steer clear of keeping plants. I have a notorious 'black thumb' and everything I touch seems to wither, so I prefer artificial plants to save myself the guilt."</span></p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>

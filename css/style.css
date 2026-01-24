@@ -1,0 +1,8 @@
+/* В этом файле ничего не нужно менять, он просто подключает Tailwind */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body { font-family: 'Inter', sans-serif; background-color: #f9fafb; }
+.b2-active #btn-B2 { background-color: #10b981; color: white; }
+.c2-active #btn-C2 { background-color: #6366f1; color: white; }
+
+.hidden { display: none; }
